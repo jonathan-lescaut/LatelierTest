@@ -1,0 +1,19 @@
+DB_NAME='wordpress'
+DB_USER='root'
+DB_PASSWORD='sonboerin44100'
+
+
+WP_ENV='development'
+WP_HOME='http://localhost:8000'
+WP_SITEURL="${WP_HOME}/wp"
+WP_DEBUG_LOG='/path/to/debug.log'
+
+# Generate your keys here: https://roots.io/salts.html
+AUTH_KEY='HGoW$g):^Cw,N1g2|pE[:J:yRo0$z/sX}<#zdho?q;J|WM7Vmb9c]2@yk$%Zi-bh'
+SECURE_AUTH_KEY='bOv=YI-:O$`$T8{@oy1saRv^2*#4B&k]4.I/<)3,&wtEp=H,B0+!uFH_{(|(Y1D0'
+LOGGED_IN_KEY=']#KMWeh-1[>:7+0{!r|cMY)`Mnj]&N?3%)/|]Ts*p0#SP:_7vy;yr^024l}+nU8M'
+NONCE_KEY='8e[P-`AVa4A$5NkP#{/.+0<@0+b(@E,9{#Ou<$S;k=j9E/nEem6&$jwqu-s>]c.V'
+AUTH_SALT='1D@Fk];i_&pY5!7C&pRF9se@-HqH`b-Gnx2+@4m%BG+m&._XQN)=pAWc_}O)V_@.'
+SECURE_AUTH_SALT='}wxVSQ)br@G_1v`f.z}lZr)|@xv&hV+>:<p=hf5Wm?Cr{70jqH87|O}&4hw@.M/o'
+LOGGED_IN_SALT='^JAC7O%9TZ#$zIf!_#pQ`Wq|L-.lPqGuN/v7S/%jf5r]e|F(*)rCIs1}B-sed$ws'
+NONCE_SALT='G}ZK6bnC&}[M]vr[vwauK=tvnC#aR%%NXP9z:Mjc;<-G&[Cg4/H-z+v[(pyk/@3d'
