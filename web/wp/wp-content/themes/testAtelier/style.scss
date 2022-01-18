@@ -1,0 +1,227 @@
+/*
+Theme Name: mon theme
+*/
+
+$colorSearch: #c0c0c0;
+$colorButton: #6a0085;
+
+// ==========================================================================================================================
+											// GLOBAL
+// ==========================================================================================================================
+a{
+	text-decoration: none;
+	text-transform: none;
+}
+
+// ==========================================================================================================================
+											// SECTION 1
+// ==========================================================================================================================
+
+.content{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	.searchBloc{
+		background-color: #fff;
+		width: 50%;
+		margin: auto;
+		border-radius: 10px;
+		margin-top: 5px;
+		.sousSearchBloc{
+			width: 75%;
+			margin: auto;
+			margin-top: 2em;
+			margin-bottom: 2em;
+		}
+		.sous-titre{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+		.conseil{
+			text-align: center;
+			font-size: .8rem;
+		}
+		.rond{
+			background-color:  $colorButton;
+			color: white;
+			text-align:center;
+			border-radius:100px;
+			padding-left: 5px;
+			padding-right: 5px;
+			margin-left: 10px;
+
+		}
+
+		.sous-titre a, .conseil{
+			margin-bottom: 1.5em;
+			color :#ababab;
+		}
+		.sous-titre div{
+			font-weight: 800;
+		}
+		.sous-titre-lien, .trait, a:hover{
+			display: flex;
+			color: $colorButton;
+		}
+		.trait{
+			display: none;
+			border-bottom: 3px solid $colorButton;
+		}
+
+	}
+
+
+}
+.section1 h1, .text{
+	text-align: center;
+	color: white;
+}
+.section1{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://localhost:8000/app/uploads/2022/01/imgSection1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	h1{
+		margin-top: 6em;
+		font-weight: 600;
+	}
+	.text{
+		width: 35%;
+		margin: auto;
+		margin-bottom: 2em;
+		margin-top: 2em;
+
+	}
+	.search{
+		background-color: $colorSearch;
+		padding: .5em;
+		border-radius: 5px;
+		width: 100%;
+		margin: auto;
+	}
+	.search-form{
+		background-color: $colorSearch;
+		border: $colorSearch;
+	}
+
+	button{
+		background-color: $colorButton;
+		padding: 0 20px 0 20px;
+	}
+	button:hover{
+		background-color: rgb(0, 0, 0);
+		border: black;
+	}
+}
+
+// ====== effet sous titre lien ==========
+
+.sous-titre-lien{
+	display:block;
+}
+
+.sous-titre-lien a {
+    text-decoration:none;
+    text-align: center;
+
+}
+.sous-titre-lien a:after {
+  content: '';
+  margin: auto;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+.sous-titre-lien a:hover:after {
+  width: 90%;
+  background: $colorButton
+}
+.content .searchBloc .sous-titre-lien, .content .searchBloc .trait, .content .searchBloc a:hover {
+    display: flex;
+    color: #6a0085;
+    flex-direction: column;
+}
+
+// ======================================
+
+
+
+// ==========================================================================================================================
+											// SECTION 2
+// ==========================================================================================================================
+
+
+
+
+.section2{
+	display: flex;
+	flex-direction: column;
+	.titreSection2{
+		width: 30%;
+		margin: auto;
+		font-size: 2.5rem;
+		font-weight: bold;
+		margin-top: 3em;
+		line-height: normal;
+	}
+	.textSection2{
+		width: 50%;
+		margin: auto;
+		text-align: center;
+		margin-top: 1.5em;
+		margin-bottom: 1.5em;
+	}
+	.blocCaroussel{
+		width: 60%;
+		margin: auto;
+		display: flex;
+	}
+	.imgCaroussel{
+		width: 50px;
+	}
+	.boutonSection2{
+		margin: auto;
+		padding: 5px 20px 5px 20px;
+		background-color: $colorButton;
+		color: white;
+		border-radius: 5px;
+	}
+
+}
+
+// ===============================================================================================
+// page 404
+// ===============================================================================================
+
+.erreur404{
+	background-color: #010000;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 80vh;
+	img{
+		display: flex;
+		padding-top: 10%;
+		margin: auto;
+	}
+	.giff{
+		border-radius: 20px;
+	}
+  .E404{
+	margin-top: 20px;
+  }
+  
+	.E404, .moderation{
+		color:white;
+		font-size: 3rem;
+		text-align: center;
+		font-family: 'Special Elite', cursive;
+	}
+	a{
+		text-transform: none;
+		text-decoration: none;
+	}
+  }
