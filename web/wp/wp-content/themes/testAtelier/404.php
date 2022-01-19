@@ -14,14 +14,6 @@
                         A consommer avec moderation ....
                     </div>
                 </div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-
-
-
             </div>
         </a>
     </section>
